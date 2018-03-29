@@ -1,0 +1,24 @@
+
+public class BossFactory implements ClothingFactory {
+
+	@Override
+	public Cap createCap() {
+		return new BossCap();
+	}
+
+	@Override
+	public Jeans createJeans() {
+		return new BossJeans();
+	}
+
+	@Override
+	public Shoes createShoes() {
+		return new BossShoes();
+	}
+
+	@Override
+	public TShirt createTShirt() {
+		return new BossTShirt();
+	}
+
+}
